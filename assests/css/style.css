@@ -1,0 +1,982 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ********** navbar section ************** */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 8;
+}
+
+/* ***************** navabr section Social ***************** */
+nav .social {
+    display: flex;
+    justify-content: space-between;
+    background: #EF4D5D;
+}
+
+nav .social .left {
+    margin-left: 30px;
+    padding: 10px;
+}
+
+nav .social .left h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+nav .social .right {
+    margin-right: 40px;
+    padding: 10px;
+}
+
+nav .social .right a {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav .social .right a:hover {
+    color: silver;
+}
+
+.side {
+    margin-left: 0px !important;
+    transition: 1s;
+}
+
+
+
+
+
+/* ******************  nav section navbar ************** */
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.54);
+    background: #fff;
+}
+
+nav .navbar .logo {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+nav .navbar ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
+nav .navbar ul li:hover {
+    border-bottom: 2px solid #EF4D5D;
+}
+
+nav .navbar ul .active {
+    border-bottom: 2px solid #EF4D5D;
+}
+
+nav .navbar ul li a {
+    color: #EF4D5D;
+    text-decoration: none;
+}
+
+nav .navbar .toggle-btn {
+    display: none;
+}
+
+
+/*  ***************    web banner section *************************************** */
+.web-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.web-banner .banner-img {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.web-banner .banner-img img {
+    width: 100%;
+}
+
+
+.web-banner .banner-text {
+    width: 40%;
+}
+
+.web-banner .banner-text .banner-text-conte {
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.web-banner .banner-text .banner-text-conte h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #EF4D5D;
+}
+
+.web-banner .banner-text .banner-text-conte p {
+    font-size: 18px;
+}
+
+.web-banner .banner-text .banner-text-conte .banner-btn {
+    margin-top: 20px;
+}
+
+.web-banner .banner-text .banner-text-conte .banner-btn a button {
+    background: #EF4D5D;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    width: 170px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.web-banner .banner-text .banner-text-conte .banner-btn a button:hover {
+    border: 2px solid #EF4D5D;
+    color: #EF4D5D;
+    background: transparent;
+}
+
+.web-banner .banner-text .banner-text-conte .banner-design {
+    width: 250px;
+    height: 250px;
+    background: #EF4D5D;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9;
+    border-radius: 50%;
+    opacity: 0.4;
+    margin-top: -40px;
+    margin-right: -30px;
+}
+
+
+/* ************************************** service page ******************************** */
+.services {
+    margin-top: 60px;
+}
+
+.services .services-header {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.services .services-header h2 {
+    text-align: center;
+    color: #EF4D5D;
+    font-size: 34px;
+}
+
+.services .services-header p {
+    text-align: center;
+}
+
+.services .services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services .services-container .services-content {
+    width: 25%;
+}
+
+.services .services-container .services-content .service-img img {
+    width: 100%;
+}
+
+.services .services-container .services-content .services-text {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.54);
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.services .services-container .services-content .services-text h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #EF4D5D;
+}
+
+.services .services-container .services-content .services-text p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.services .services-container .services-content .services-text a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.services .services-container .services-content .services-text a button {
+    width: 200px;
+    background: #EF4D5D;
+    border-radius: 20px;
+    margin-top: 14px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.services .services-container .services-content .services-text a button:hover {
+    color: #EF4D5D;
+    background: white;
+    border: 2px solid #EF4D5D;
+    border-radius: 20px;
+}
+
+.services .services-container .services-content .services-text a .service-diff {
+    color: #EF4D5D;
+    background: white;
+    border: 2px solid #EF4D5D;
+    border-radius: 20px;
+}
+
+.services .services-container .services-content .services-text a .service-diff:hover {
+    width: 200px;
+    background: #EF4D5D;
+    border-radius: 20px;
+    margin-top: 9px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+
+
+/* ********************** benefits of working section ********************** */
+.benefits-container {
+    margin-top: 140px;
+}
+
+.benefits-container .ben {
+    text-align: center;
+    color: #EF4D5D;
+}
+
+.benefits-container .ben-p {
+    text-align: center;
+}
+
+.benefits-container .benefit-conta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.benefits-container .benefit-conta .benefit-content {
+    width: 20%;
+    margin-right: 30px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.54);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.benefits-container .benefit-conta .benefit-content i {
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 130px;
+    margin-top: 50px;
+    color: #EF4D5D;
+    border: 2px solid #EF4D5D;
+    font-size: 32px;
+}
+
+.benefits-container .benefit-conta .benefit-content .footer-bg {
+    width: 100px;
+    height: 100px;
+    background: #EF4D5D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    padding: 30px;
+}
+
+.benefits-container .benefit-conta .benefit-content .footer-bg h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.benefits-container .benefit-conta .benefit-content .benefits-text {
+    margin-top: 50px !important;
+    text-align: center !important;
+    padding: 20px;
+}
+
+.benefits-container .benefit-conta .benefit-content .benefits-text h2 {
+    margin-bottom: 10px !important;
+}
+
+/* *********** become our driver section ********************** */
+.become-driver {
+    margin-top: 90px;
+    /* background: rgb(245, 245, 245); */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../imgs/container-truck-ship-port-freight-cargo-plane-transpo-transport-import-export-commercial-logistic-shipping-business-61432246.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+
+
+.become-driver .become-text {
+    margin-left: 20px;
+}
+
+.become-driver .become-text h2 {
+    color: #fff;
+}
+
+.become-driver .become-text p {
+    color: #fff;
+}
+
+.become-driver .become-text .driver-design {
+    width: 300px;
+    height: 5px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.become-driver .become-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.become-driver .become-container .become-left img {
+    width: 300px;
+    height: 300px;
+    visibility: hidden;
+}
+
+.become-container .become-right {
+    width: 40%;
+}
+
+.become-container .become-right .bec {
+    color: #fff;
+}
+
+.become-container .become-right .bec0 {
+    margin-top: 5px;
+}
+
+.become-container .become-right .become-btns {
+    margin-top: 20px;
+}
+
+.become-container .become-right .become-btns a button {
+    background: #EF4D5D;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.become-container .become-right .become-btns a button:hover {
+    border: 2px solid #EF4D5D !important;
+    color: #fff;
+    background: transparent;
+}
+
+.become-container .become-right .become-btns a .create {
+    width: 150px !important;
+    padding: 10px !important;
+    border: none !important;
+    outline: none !important;
+    color: #EF4D5D !important;
+    border-radius: 20px !important;
+    background: transparent;
+    margin-left: 10px !important;
+    border: 2px solid #EF4D5D !important;
+    color: #fff !important;
+}
+
+.become-container .become-right .become-btns a .create:hover {
+    background: #EF4D5D !important;
+    color: #fff !important;
+}
+
+.become-container .become-right .clients {
+    margin-top: 30px;
+}
+
+.become-container .become-right .clients .client-text h2 {
+    color: #fff;
+}
+
+.become-container .become-right .clients .status-cont {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.become-container .become-right .clients .status-cont .space {
+    margin-left: 80px;
+}
+
+.become-container .become-right .clients .status-cont .status {
+    background: #EF4D5D;
+    padding: 10px;
+    width: 300px;
+}
+
+.become-container .become-right .clients .status-cont .status h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.become-container .become-right .clients .status-cont .status p {
+    color: #fff;
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+/* ****************************** routes section ************** */
+.routes-container {
+    display: flex;
+    justify-content: baseline;
+    background: rgb(228, 217, 217);
+    margin: 60px 10px;
+    flex-wrap: wrap;
+}
+
+.routes-container .route-img {
+    width: 40%;
+}
+
+.routes-container .route-img img {
+    width: 80%;
+    height: 500px;
+}
+
+/* route section but the notes section  */
+.routes-container .route-text {
+    width: 60%;
+    padding: 20px;
+}
+
+.routes-container .route-text .route-text-txt {
+    margin-top: 20px;
+}
+
+.routes-container .route-text .route-text-txt .txt {
+    color: #EF4D5D;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.routes-container .route-text .routes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.routes-container .route-text .routes .routes-content {
+    padding: 20px;
+    width: 50%;
+    height: 290px;
+}
+
+.routes-container .route-text .routes .routes-content h2 {
+    margin-bottom: 8px;
+}
+
+.routes-container .route-text .routes .routes-content p {
+    font-size: 22px;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+
+
+
+/* **************************8  footer section in css  ***********************  */
+footer {
+    background: #EF4D5D;
+    padding: 50px;
+}
+
+footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .footer-container h2 {
+    color: white;
+    font-size: 18px;
+}
+
+footer .footer-container h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+footer .footer-container h3 a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px;
+}
+
+footer hr {
+    background: white;
+    height: 1px;
+}
+
+footer .footer-last {
+    padding: 10px 0px;
+}
+
+footer .footer-last .last {
+    float: left;
+}
+
+footer .footer-last .last h4 {
+    color: white;
+    font-weight: 400;
+}
+
+footer .footer-last .social-footer {
+    float: right;
+}
+
+footer .footer-last .social-footer i {
+    color: #EF4D5D;
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+footer .footer-container .footer-cards iframe {
+    height: 270px;
+    width: 400px;
+}
+
+
+
+
+/* ************************ login and sign up ****************** */
+.social-media a i {
+    background: #EF4D5D;
+    padding: 15px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.social-media a i:hover {
+    background: white;
+    color: #EF4D5D;
+}
+
+
+/* ******************* signup section ***************************** */
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-conta {
+    margin-top: 100px;
+    box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000070;
+    padding: 30px;
+    width: 30%;
+}
+
+.signup-conta a i {
+    background: #EF4D5D;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.h {
+    color: #EF4D5D;
+}
+
+.signup-conta h1 {
+    text-align: center;
+    color: #EF4D5D;
+}
+
+.signup-conta .p {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.signup-conta .name {
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+
+.signup-conta .name input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.signup .name .pass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup .name .pass i {
+    color: #EF4D5D;
+}
+
+.signup-conta input[type="submit"] {
+    margin-top: 20px;
+    background: #EF4D5D;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* media queery  */
+@media screen and (max-width: 868px) {
+    .web-banner {
+        flex-wrap: wrap;
+        margin-top: 200px;
+    }
+
+    .services {
+        margin-top: 20px;
+    }
+
+    .web-banner .banner-text .banner-text-conte {
+        margin-top: 0px;
+    }
+
+    .web-banner .banner-text .banner-text-conte h2 {
+        font-size: 28px;
+    }
+
+    .services .services-container .services-content {
+        width: 30%;
+    }
+
+    .benefits-container .benefit-conta .benefit-content {
+        width: 28%;
+    }
+
+    .benefits-container .benefit-conta .benefit-content i {
+        margin-left: 100px;
+    }
+
+    .become-container .become-right .clients .status-cont .space {
+        margin-left: 30px;
+    }
+
+    .become-container .become-right .clients .client-text h2 {
+        font-size: 18px;
+    }
+
+    .become-container .become-right .bec {
+        font-size: 18px;
+    }
+
+    .become-container .become-right p {
+        color: #fff;
+    }
+
+    .become-container .become-right .clients .client-text p {
+        color: #fff;
+    }
+
+    .routes-container .route-img img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .routes-container .route-text .routes .routes-content {
+        padding: 10px;
+    }
+
+    /* about device section  */
+    .about-device .about-content .about-text {
+        width: 400px;
+    }
+
+    /* footer iframe */
+    footer .footer-container .footer-cards iframe {
+        width: 100%;
+    }
+
+    /* *********** sign up section *************** */
+    .signup-conta {
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav .navbar .toggle-btn {
+        display: block;
+        margin: 10px;
+        font-size: 50px;
+    }
+
+    nav .navbar .toggle-btn i {
+        color: #EF4D5D;
+    }
+
+    nav .navbar ul {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #EF4D5D;
+        margin-top: 130px;
+        width: 300px;
+        margin-left: -400px;
+    }
+
+    nav .navbar ul li {
+        float: none;
+    }
+
+    nav .navbar ul li:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+    nav .navbar ul .active {
+        border-bottom: 2px solid #fff;
+    }
+
+    .active {
+        border-bottom: 2px solid #fff;
+    }
+
+    nav .navbar ul li a {
+        color: #fff;
+    }
+
+    .web-banner .banner-img {
+        width: 100%;
+    }
+
+    .web-banner .banner-text {
+        margin-top: 50px;
+        width: 95%;
+    }
+
+    .services .services-container .services-content {
+        width: 30%;
+        margin-top: 30px;
+    }
+
+    .services .services-container .services-content .service-img img {
+        height: 400px;
+    }
+
+    .benefits-container .benefit-conta .benefit-content {
+        width: 29%;
+        margin-top: 20px;
+    }
+
+    .benefits-container .benefit-conta .benefit-content i {
+        margin-left: 90px;
+    }
+
+    .become-driver .become-container .become-left {
+        display: none;
+    }
+
+    .become-container .become-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .become-container .become-right .become-btns {
+        margin-top: 40px;
+    }
+
+    .become-container .become-right .clients {
+        margin-top: 40px;
+    }
+
+    .become-container .become-right .clients .status-cont {
+        margin-top: 50px;
+    }
+
+    .become-driver {
+        height: 600px;
+    }
+
+    .routes-container {
+        width: 100%;
+    }
+
+    /* .routes-container .route-img{
+        width: 300px !important;
+    }
+
+    .routes-container .route-img img{
+        width: 100%;
+    } */
+
+    .routes-container .route-text {
+        width: 100%;
+    }
+
+    footer .footer-container .footer-cards {
+        width: 90%;
+    }
+
+    .signup-conta {
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .services .services-container .services-content {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .services .services-container .services-content .service-img img {
+        height: 400px;
+    }
+
+    .benefits-container .benefit-conta .benefit-content {
+        width: 80%;
+    }
+
+    .routes-container .route-img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    nav .social .right a {
+        font-size: 16px;
+    }
+
+    nav .navbar ul {
+        margin-top: 150px;
+    }
+
+    .web-banner .banner-img {
+        width: 90%;
+    }
+
+    .web-banner .banner-text {
+        width: 80%;
+    }
+
+    .routes-container {
+        width: 95%;
+    }
+
+    .routes-container .route-img img {
+        width: 100%;
+    }
+
+    .benefits-container .benefit-conta .benefit-content {
+        width: 98%;
+        margin-left: 30px;
+    }
+
+    .benefits-container .benefit-conta .benefit-content i {
+        margin-left: 120px;
+    }
+
+    .routes-container .route-text .routes .routes-content {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .routes-container .route-text .routes .routes-content h2 {
+        font-size: 19px;
+    }
+
+    .routes-container .route-text .routes .routes-content p {
+        font-size: 16px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer .footer-container .footer-cards {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* footer section in css */
+    footer .footer-container h3 a {
+        font-size: 14px;
+    }
+
+    footer .footer-container .newsletter input[type="email"] {
+        width: 60%;
+    }
+
+    footer .footer-last .last h4 {
+        font-size: 10px;
+    }
+
+    footer .footer-last .social-footer i {
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .web-banner .banner-text .banner-text-conte .banner-design {
+        display: none;
+    }
+}
+
+
