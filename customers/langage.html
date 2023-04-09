@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customer Langage </title>
+
+    <!-- link to the css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../assests/vendors/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../assests/vendors/fontawesome-free/webfonts/fa-brands-400.ttf">
+</head>
+
+<body>
+    <nav>
+        <div class="toggle-btn">
+            <i class="fas fa-bars" id="btn"></i>
+        </div>
+        
+        <div class="username">
+            <h1> Bonane </h1>
+            <p>bonanekabene67@gmail.com</p>
+        </div>
+
+        <div class="action">
+            <!-- notificatiuon section -->
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+
+                <div class="noti_nu">
+                    <p> 30 </p>
+                </div>
+
+                <div class="notifi_menu">
+                    <p class="p"> Recent notification </p>
+
+                    <div class="notifi_data">
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img">
+                <img src="../assests/imgs/default.png" alt="bonane kabene" srcset="" height="50">
+            </div>
+        </div>
+    </nav>
+
+    <!-- the web banner section main container -->
+    <div class="main_container"><br>
+        <div class="container_left" id="sidebar">
+            <ul>
+                <li><a href=""><i class="fa fa-dashboard"></i> Dashboard </a></li>
+                <li><a href=""><i class="fas fa-road"></i> Booking </a></li>
+                <li class="active"><a href=""><i class="fab fa-itch-io"></i> Langage </a></li>
+                <li><a href=""><i class="fas fa-user-plus"></i> Profile </a></li>
+                <li><a href=""><i class="fa fa-sign-out"></i> Log out </a></li>
+            </ul>
+        </div>
+
+        <div class="container_right">
+            <div class="driver-container">
+                <div class="driver-left">
+                    
+                    <form action="" method="post">
+                        <h2 style="color: #EF4D5D; text-align: center"> Langage Information  </h2>
+                        <div class="form-left">
+                            <h2 style="text-align: center; margin: 10px"> Sender's Information </h2>
+    
+                            <div class="input-left">
+                                <h2> Item Name </h2>
+                                <input type="text" placeholder="Name">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Type </h2>
+                                <input type="text" placeholder="Electron, cloth, food ...">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Sender's Code </h2>
+                                <input type="text" placeholder="Type code ">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Sender Name  </h2>
+                                <input type="text" placeholder="Sender's name ">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Sender Number  </h2>
+                                <input type="tel" placeholder="Sender's number ">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Sender Address  </h2>
+                                <input type="text" placeholder="Sender's Physical Address">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Sent On  </h2>
+                                <input type="date" placeholder="Date Sent">
+                            </div>
+    
+                            <div class="input-right">
+                                <h2> Time  </h2>
+                                <input type="time">
+                            </div>
+    
+                        </div>
+    
+                        <!-- ********************************* form separation ***************************** -->
+                        <div class="form-right">
+                            <h2 style="text-align: center; margin: 10px"> Receiver's Information </h2>
+    
+                            <div class="input-right">
+                                <h2> Receiver Name </h2>
+                                <input type="text" placeholder="Receiver Name">
+                            </div>
+    
+                            <div class="input-right">
+                                <h2> Receiver Number </h2>
+                                <input type="number" placeholder="Receiver Number">
+                            </div>
+    
+                            <div class="input-right">
+                                <h2> Receiver Address </h2>
+                                <input type="text" placeholder="Receiver Address Bulenga">
+                            </div>
+    
+                            <div class="input-right">
+                                <h2> Received On </h2>
+                                <input type="date" disabled>
+                                <p style="color: #EF4D5D; font-size: 14px;"> This data is provided by Receiver </p>
+                            </div>
+    
+                            <div class="input-right">
+                                <h2> Time  </h2>
+                                <input type="time" disabled>
+                                <p style="color: #EF4D5D; font-size: 14px;"> This data is provided by Receiver </p>
+                            </div>
+    
+                            <input type="submit" value="Add Langage" class="submit">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="driver-right">
+                    <div class="text">
+                        <h2> Langages in store </h2>
+                        <p> * ( S ) is the sender and ( R ) is the receiver  </p>
+                    </div>
+    
+                    <table class="l_table">
+                        <thead>
+                            <tr class="langage-tr">
+                                <td> Item  </td>
+                                <td class="s-hidden"> Type  </td>
+                                <td class="s-hidden"> Code  </td>
+                                <td> S-Name </td>
+                                <td> R-name </td>
+                                <td> View Item  </td>
+                                <td> Action </td>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td> Laptop </td>
+                                <td class="s-hidden"> Electronic </td>
+                                <td class="s-hidden">  %6h%gDu </td>
+                                <td> Bonane </td>
+                                <td> Dada </td>
+                                <td><a href=""> View </a></td>
+                                <td> <a href=""><i class="fas fa-pen-to-square"></i></a>  <a href="" style="margin-left: 9px"><i class="fas fa-trash-can"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>

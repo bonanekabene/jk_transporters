@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Driver Profile </title>
+
+    <!-- link to the css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../assests/vendors/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../assests/vendors/fontawesome-free/webfonts/fa-brands-400.ttf">
+</head>
+
+<body>
+    <nav>
+        <div class="toggle-btn" >
+            <i class="fas fa-bars" id="btn"></i>
+        </div>
+
+        
+        <div class="username">
+            <h1> Bonane </h1>
+            <p>bonanekabene67@gmail.com</p>
+        </div>
+
+        <div class="action">
+            <!-- notificatiuon section -->
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+
+                <div class="noti_nu">
+                    <p> 30 </p>
+                </div>
+
+                <div class="notifi_menu">
+                    <p class="p"> Recent notification </p>
+
+                    <div class="notifi_data">
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+
+                        <div class="data">
+                            <p> bonane </p>
+                            <p> Booked </p>
+                            <p> UVX 568 H </p>
+                            <p> Paid </p>
+                            <a href="">
+                                <p> View </p>
+                            </a>
+                            <a href=""><i class="fas fa-xmark"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img">
+                <img src="../assests/imgs/default.png" alt="bonane kabene" srcset="" height="50">
+            </div>
+        </div>
+    </nav>
+
+    <!-- the web banner section main container -->
+    <div class="main_container"><br>
+        <div class="container_left" id="sidebar">
+            <ul>
+                <li><a href=""><i class="fa fa-dashboard"></i> Dashboard </a></li>
+                <li><a href=""><i class="fas fa-road"></i> Booking </a></li>
+                <li><a href=""><i class="fab fa-itch-io"></i> Langage </a></li>
+                <li class="active"><a href=""><i class="fas fa-user-plus"></i> Profile </a></li>
+                <li><a href=""><i class="fa fa-sign-out"></i> Log out </a></li>
+            </ul>
+        </div>
+
+        <div class="container_right">
+            <div class="driver-container">
+                <div class="driver-left">
+                    <form action="" method="post">
+                        <h2 style="color: #EF4D5D; text-align: center"> Update Profile  </h2>
+                        <div class="form-left">
+                            <div class="input-left">
+                                <h2> Name </h2>
+                                <input type="text" placeholder="Name">
+                            </div>
+
+                            <div class="input-left">
+                                <h2> Email </h2>
+                                <input type="Email" placeholder="Email">
+                            </div>
+
+                            <div class="input-left">
+                                <h2> Password </h2>
+                                <input type="Password" placeholder="Password">
+                            </div>
+    
+                            <div class="input-left">
+                                <h2> Mobile </h2>
+                                <input type="tel" placeholder="Number +256 ....">
+                            </div>
+
+                        </div>
+    
+                        <!-- ********************************* form separation ***************************** -->
+                        <div class="form-right">
+    
+                            <div class="input-right">
+                                <h2> Address </h2>
+                                <input type="text" placeholder="Address Bulenga">
+                            </div>
+    
+                            <!-- <label for="travel"> choose Langage </label> -->
+                            <!-- <select name="" id="travel" style="width: 300px;">
+                                <optgroup label="language">
+                                    <option value="php"> php </option>
+                                    <option value="html"> html </option>
+                                </optgroup>
+                            </select> -->
+    
+                            <input type="submit" value="Add Driver" class="submit">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="driver-right img-bonane">
+                    <img src="../assests/imgs/bonane.jpg" alt="" srcset="" style="width: 60%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
