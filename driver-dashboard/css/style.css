@@ -1,0 +1,1002 @@
+/* dashboard designing  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+}
+
+nav {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.54);
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav .username h1,
+p {
+    color: #000;
+}
+
+nav .toggle-btn {
+    display: none;
+}
+
+
+nav .action {
+    display: flex;
+    justify-content: center;
+}
+
+nav .action .search {
+    margin-right: 40px;
+    border: 1px solid rgb(123, 121, 121);
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 50px;
+    height: 40px;
+}
+
+nav .action .search input[type="text"] {
+    width: 300px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+nav .action .search i {
+    margin-right: 9px;
+    color: #EF4D5D;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+nav .action .btn {
+    margin-right: 30px;
+}
+
+nav .action .btn a button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #EF4D5D;
+    width: 100px;
+    color: #fff;
+}
+
+
+nav .action .notification {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav .action .notification i {
+    font-size: 32px;
+}
+
+nav .action .notification .noti_nu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+nav .action .notification .noti_nu p {
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/* ******************* notification section in ***************************** */
+nav .action .notification .notifi_menu {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.54);
+    left: -300px;
+    width: 400px;
+    top: 45px;
+    padding: 8px;
+    height: 200px auto;
+    overflow-y: auto;
+}
+
+nav .action .notification .notifi_menu p {
+    margin-bottom: 5px;
+}
+
+nav .action .notification .notifi_menu .notifi_data .data p {
+    color: #fff;
+}
+
+nav .action .notification .notifi_menu .notifi_data .data {
+    display: flex;
+    justify-content: space-between;
+    background: #EF4D5D;
+    padding: 4px 6px;
+    margin-bottom: 5px;
+}
+
+nav .action .notification .notifi_menu .notifi_data .data a {
+    text-decoration: none;
+}
+
+nav .action .notification .notifi_menu .notifi_data .data a i {
+    font-size: 22px;
+    color: #fff;
+}
+
+nav .action .img {
+    margin-top: -20px;
+}
+
+nav .action .img img {
+    border-radius: 50%;
+}
+
+/* designing the navbar section left */
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.main_container .container_left {
+    margin-top: 100px;
+    background: #EF4D5D;
+    width: 20%;
+    height: 800px;
+    position: fixed;
+    left: 0;
+    top: 1px;
+    bottom: 0;
+    z-index: 5;
+}
+
+.main_container .container_left ul {
+    margin-top: 10px;
+}
+
+.main_container .container_left ul li {
+    margin-top: 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+.main_container .container_left ul .active {
+    background: white;
+    color: #EF4D5D;
+}
+
+.main_container .container_left ul .active a {
+    color: #EF4D5D;
+}
+
+.main_container .container_left ul li:hover {
+    background: white;
+    color: #EF4D5D;
+}
+
+.main_container .container_left ul li:hover a {
+    color: #EF4D5D;
+}
+
+.main_container .container_left ul li a {
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.main_container .container_left ul li a i {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+/* ****************** second container ********************** */
+.main_container .container_right {
+    width: 78%;
+}
+
+.main_container .container_right .info_conta {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.main_container .container_right .info_conta .info_content {
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.54);
+}
+
+.main_container .container_right .info_conta .info_content .info_icon i {
+    font-size: 38px;
+    color: #EF4D5D;
+}
+
+/* booking and new drivers section  */
+.booking_container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.booking_container .booking {
+    width: 50%;
+    background: #fff;
+}
+
+.booking_container .booking .booking_header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.booking_container .booking .booking_header a {
+    background: #EF4D5D;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.booking_container .booking table {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.booking_container .booking table thead td {
+    font-weight: 900;
+}
+
+.table th,
+td {
+    padding: 9px;
+    text-align: left;
+    border: none !important;
+}
+
+tbody .tr:hover {
+    border: none !important;
+    background: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking_container .booking .color a {
+    color: #EF4D5D;
+}
+
+.booking_container .booking .view {
+    background: #EF4D5D;
+}
+
+.booking_container .booking .view a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ********************** booking section ************************** */
+.booking_container .new_drivers {
+    width: 30%;
+    background: white;
+}
+
+.booking_container .new_drivers .driver {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.booking_container .new_drivers .driver a {
+    background: #EF4D5D;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.booking_container .new_drivers table {
+    width: 100%;
+}
+
+.booking_container .new_drivers table thead td {
+    font-weight: 900;
+}
+
+.booking_container .new_drivers table tbody td {
+    padding: 2px !important;
+}
+
+.booking_container .new_drivers table tbody td i {
+    background: #EF4D5D;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  Profile section &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.container_right .profile_conta {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.container_right .profile_conta .profile_update {
+    width: 60%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container_right .profile_conta .profile_update form {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.container_right .profile_conta .profile_update form .form_text {
+    padding: 20px;
+}
+
+.container_right .profile_conta .profile_update form .form_text h2 {
+    color: #EF4D5D;
+}
+
+.container_right .profile_conta .profile_update form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+}
+
+.container_right .profile_conta .profile_update form input[type="submit"] {
+    background: #EF4D5D;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.container_right .profile_conta .profile_update .img {
+    padding: 10px;
+}
+
+.container_right .profile_conta .profile_update .img img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&& profile update delete section &&&&&&&&&&&&&&&&&&&&&&&&&& */
+.container_right .profile_conta .delete_conta {
+    width: 30%;
+}
+
+.container_right .profile_conta .delete_conta .delete_content {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container_right .profile_conta .delete_conta .delete_content h2 {
+    color: #EF4D5D;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.container_right .profile_conta .delete_conta .delete_content .d_p {
+    margin-left: 20px;
+}
+
+.container_right .profile_conta .delete_conta .delete_content .comfirm {
+    display: flex;
+    justify-content: baseline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container_right .profile_conta .delete_conta .delete_content .comfirm input {
+    background: #EF4D5D;
+    color: #EF4D5D;
+}
+
+.container_right .profile_conta .delete_conta .delete_content .comfirm p {
+    margin-left: 10px;
+    color: #EF4D5D;
+}
+
+.container_right .profile_conta .delete_conta .delete_content a button {
+    background: #EF4D5D;
+    margin-top: 30px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%555555555 updating the image section $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.container_right .delete_conta .update_img {
+    margin-top: 80px;
+    background: #fff;
+    padding: 20px;
+}
+
+.container_right .delete_conta .update_img h2 {
+    color: #EF4D5D;
+    font-size: 19px;
+}
+
+.container_right .delete_conta .update_img input[type="file"] {
+    margin-top: 20px;
+}
+
+.container_right .delete_conta .update_img p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #EF4D5D;
+}
+
+.container_right .delete_conta .update_img input[type="submit"] {
+    margin-top: 30px;
+    background: #EF4D5D;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+
+
+/* *********************************** langage section ******************** */
+.container_right .langage_container {
+    background: #fff;
+    width: 98%;
+    margin-top: 70px;
+    overflow-x: auto;
+}
+
+.container_right .langage_container .text {
+    padding: 30px;
+}
+
+.container_right .langage_container .l_table {
+    width: 100%;
+    font-size: 15px;
+    padding: 0px !important;
+}
+
+.container_right .langage_container table thead .langage-tr {
+    font-weight: 900;
+}
+
+.container_right .langage_container table tbody .l-color {
+    color: #EF4D5D;
+}
+
+.container_right .langage_container table tbody .l-view {
+    background: #EF4D5D;
+    color: white;
+    padding: 8px;
+}
+
+
+/* ************************** item review section ************************************** */
+.container_right .item-review .item-text {
+    background: white;
+    width: 95%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container_right .item-review .item-text .r-h2 {
+    text-align: center;
+    color: #EF4D5D;
+}
+
+.container_right .item-review .item-text .r-p {
+    text-align: center;
+}
+
+.container_right .item-review .item-text .item-card-conta {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%% review section %%%%%%%%%%%%%%%%%%%%%%%% */
+.container_right .item-review .review-info {
+    display: flex;
+    justify-content: baseline;
+    margin-top: 60px;
+}
+
+.container_right .item-review .review-info .info-card {
+    background: #fff;
+    width: 40%;
+    padding: 20px;
+}
+
+.container_right .item-review .review-info .info-card h2 {
+    color: #EF4D5D;
+    margin-bottom: 8px;
+}
+
+.container_right .item-review .review-info .info-card p {
+    color: #EF4D5D;
+    margin-bottom: 8px;
+}
+
+.container_right .item-review .review-info .info-card p span {
+    color: #000;
+    margin-left: 20px;
+}
+
+
+
+.container_right .container-booking {
+    background: #fff;
+    margin-top: 40px;
+    width: 94%;
+    margin-left: 35px;
+}
+
+.container_right .booking_container .overflow {
+    height: 100px !important;
+}
+
+.container_right .container-booking table {
+    width: 100%;
+}
+
+.container_right .container-booking .cleared {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ************************************  fuel section ******************************* */
+.container_right .fuel-conta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container_right .fuel-conta .fuel-left {
+    background: white;
+    width: 70%;
+}
+
+.container_right .fuel-conta .fuel-left .fuel-text {
+    padding: 20px;
+}
+
+.container_right .fuel-conta .fuel-left .fuel-text h2 {
+    color: #EF4D5D;
+}
+
+.container_right .fuel-conta .fuel-left table {
+    width: 100%;
+    font-size: 13px;
+}
+
+.container_right .fuel-conta .fuel-left table thead {
+    font-weight: 900;
+}
+
+.container_right .fuel-conta .fuel-left table tbody .f-hide a {
+    background: #EF4D5D;
+    padding: 6px;
+    color: #fff;
+}
+
+
+
+.container_right .fuel-conta .fuel-right {
+    width: 20%;
+    background: #fff;
+    margin-right: 40px;
+    position: absolute;
+    right: 0;
+    height: 180px;
+}
+
+.container_right .fuel-conta .fuel-right .fuel-r-text {
+    padding: 10px;
+}
+
+.container_right .fuel-conta .fuel-right .fuel-r-text h2 {
+    font-size: 19px;
+}
+
+.container_right .fuel-conta .fuel-right .fuel-r-text p {
+    font-size: 14px;
+}
+
+.container_right .fuel-conta .fuel-right .expenses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.container_right .fuel-conta .fuel-right .expenses .expense-card h2 {
+    color: #EF4D5D;
+    font-weight: 800;
+}
+
+.container_right .fuel-conta .fuel-right .expenses .expense-card p {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+
+/* ******************************* driver section******************* */
+.container_right .driver-left {
+    width: 97% !important;
+}
+
+.container_right .driver-left table tbody .action-drivers {
+    color: #EF4D5D;
+    font-size: 16px;
+}
+
+
+/* ************************** form section ************************ */
+.container_right .driver-form {
+    background: #fff;
+    width: 95%;
+    padding: 30px;
+}
+
+.container_right .driver-form .driver-form-text {
+    text-align: center;
+    color: #EF4D5D;
+}
+
+.container_right .driver-form form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container_right .driver-form form .form-left {
+    width: 40%;
+}
+
+.container_right .driver-form form .form-left .input-left {
+    margin-bottom: 20px;
+}
+
+.container_right .driver-form form .form-left .input-left h2 {
+    font-size: 17px;
+}
+
+.container_right .driver-form form .form-left .input-left input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 4px;
+}
+
+
+
+.container_right .driver-form form .form-right {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.container_right .driver-form form .form-right .input-right input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 4px;
+}
+
+.container_right .driver-form form .form-right .input-right {
+    margin-bottom: 20px;
+}
+
+.container_right .driver-form form .form-right .input-right h2 {
+    font-size: 17px;
+}
+
+.container_right .driver-form form .form-left .submit {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #EF4D5D;
+    color: #fff;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+}
+
+.container_right .driver-form form .form-right .submit {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #EF4D5D;
+    color: #fff;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+/* ************************************************** driver dashboard section  ************************************** */
+/* ********************************************************************************************************************** */
+
+.container_right .driver-container {
+    background: white;
+    width: 98%;
+    display: flex;
+    justify-content: baseline;
+}
+
+.container_right .bonanekk6 {
+    background: transparent !important;
+}
+
+
+.container_right .driver-container .driver-left {
+    width: 20%;
+    padding: 10px;
+}
+
+.container_right .driver-container .driver-right {
+    width: 100%;
+}
+
+.container_right .driver-container .driver-left form .input-right input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 4px;
+}
+
+.container_right .driver-container .driver-left form .input-right {
+    margin-bottom: 20px;
+}
+
+.container_right .driver-container .driver-left form .input-right h2 {
+    font-size: 17px;
+}
+
+.container_right .driver-container .driver-left form .submit {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #EF4D5D;
+    color: #fff;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+}
+
+.container_right .driver-container .driver-left form .input-left input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 4px;
+}
+
+.container_right .driver-container .driver-left form .input-left {
+    margin-bottom: 20px;
+}
+
+.container_right .driver-container .driver-left form .input-left h2 {
+    font-size: 17px;
+}
+
+.container_right .driver-container .driver-left form .submit {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #EF4D5D;
+    color: #fff;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+}
+
+.container_right .driver-container .driver-right {
+    padding: 10px;
+    background: #EF4D5D;
+    color: #fff;
+}
+
+.container_right .driver-container .driver-right .text {
+    margin-top: 20px;
+}
+
+.container_right .driver-container .driver-right .text p {
+    margin-bottom: 10px;
+}
+
+.container_right .driver-container .driver-right table {
+    width: 10%;
+}
+
+.container_right .driver-container .img-bonane {
+    background: transparent !important;
+}
+
+.container_right .driver-container .img-bonane img {
+    width: 90%;
+    margin-left: 40px;
+}
+
+.container_right .driver-container .bonane {
+    padding: 10px;
+    margin-right: 20px !important;
+    background: white;
+}
+
+.container_right .driver-container .bonane h2 {
+    text-align: center;
+    color: #EF4D5D;
+    margin: 20px;
+}
+
+.container_right .driver-container .bonane .plate p {
+    margin-bottom: 5px;
+}
+
+.container_right .driver-container .bonane .plate p span {
+    margin-left: 30px;
+}
+
+
+
+.container_right .driver-container .bonanekk {
+    background: white !important;
+}
+
+.container_right .driver-container .bonanekk .fuel-used {
+    padding: 10px;
+    color: #000;
+}
+
+.container_right .driver-container .bonanekk .fuel-used .h22 {
+    text-align: center;
+    color: #EF4D5D;
+}
+
+.container_right .driver-container .bonanekk .fuel-used .fuel-used-co {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.container_right .driver-container .bonanekk .fuel-used .fuel-used-co h2 {
+    font-size: 32px;
+}
+
+.container_right .driver-container .bonanekk .fuel-used .fuel-used-co p {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav .toggle-btn {
+        display: block;
+    }
+
+    nav .toggle-btn i {
+        font-size: 38px;
+        color: #EF4D5D;
+    }
+
+    .main_container .container_left {
+        margin-left: -400px;
+        width: 250px !important;
+        margin-top: 80px;
+    }
+
+    /* navbar toggler class */
+    .side {
+        margin-left: 0px !important;
+        transition: 1s;
+    }
+
+    .main_container .container_right {
+        width: 100%;
+    }
+
+    .main_container .container_right .info_conta {
+        flex-wrap: wrap;
+    }
+
+    .main_container .container_right .info_conta .info_content {
+        margin-top: 30px;
+    }
+
+    .container_right .driver-container .img-bonane img {
+        width: 100%;
+    }
+
+    .container_right .driver-container {
+        flex-wrap: wrap;
+    }
+
+    .main_container .driver-container .margin {
+        margin-top: 50px !important;
+    }
+
+    .main_container .driver-container .driver-right {
+        margin-top: 30px;
+    }
+
+    .main_container .driver-container .driver-right .l_table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .s-hidden {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    nav .username h1,
+    p {
+        font-size: 11px;
+    }
+
+    .main_container .container_right .info_conta .info_content {
+        width: 80%;
+    }
+
+    .main_container .container_right .info_conta {
+        margin-top: 0px !important;
+    }
+}
